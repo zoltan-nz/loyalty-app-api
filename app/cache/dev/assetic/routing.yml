@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /Users/szines/projects/loyalty-app-api/app/config/routing_dev.yml
+    resource: /home/szines/Projects/loyalty-app-api/app/config/routing_dev.yml

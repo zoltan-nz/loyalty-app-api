@@ -736,7 +736,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_metadata_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_90d077ddc47b02669b46589924c127a1fb432b4ba6fbd2b53dc0cb207317d298');
+        $instance->setNamespace('sf2orm_default_a0a24e5bb6196d02c31ecd91242a7b6ab40b09619a8e870a82dc8dad6ec7f74b');
 
         return $instance;
     }
@@ -753,7 +753,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_query_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_90d077ddc47b02669b46589924c127a1fb432b4ba6fbd2b53dc0cb207317d298');
+        $instance->setNamespace('sf2orm_default_a0a24e5bb6196d02c31ecd91242a7b6ab40b09619a8e870a82dc8dad6ec7f74b');
 
         return $instance;
     }
@@ -770,7 +770,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['doctrine_cache.providers.doctrine.orm.default_result_cache'] = $instance = new \Doctrine\Common\Cache\ArrayCache();
 
-        $instance->setNamespace('sf2orm_default_90d077ddc47b02669b46589924c127a1fb432b4ba6fbd2b53dc0cb207317d298');
+        $instance->setNamespace('sf2orm_default_a0a24e5bb6196d02c31ecd91242a7b6ab40b09619a8e870a82dc8dad6ec7f74b');
 
         return $instance;
     }
@@ -4193,7 +4193,7 @@ class appDevDebugProjectContainer extends Container
 
             ),
             'assetic.java.bin' => '/usr/bin/java',
-            'assetic.node.bin' => '/usr/local/bin/node',
+            'assetic.node.bin' => '/usr/bin/node',
             'assetic.ruby.bin' => ($this->targetDirs[5].'/.rvm/rubies/ruby-2.1.5/bin/ruby'),
             'assetic.sass.bin' => ($this->targetDirs[5].'/.rvm/gems/ruby-2.1.5/bin/sass'),
             'assetic.filter.cssrewrite.class' => 'Assetic\\Filter\\CssRewriteFilter',
